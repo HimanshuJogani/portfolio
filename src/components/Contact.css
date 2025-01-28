@@ -1,0 +1,76 @@
+.contact {
+  background-color: var(--background-color);
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+#contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.success-message,
+.error-message {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.success-message {
+  background-color: rgba(46, 213, 115, 0.1);
+  color: #2ed573;
+}
+
+.error-message {
+  background-color: rgba(255, 71, 87, 0.1);
+  color: #ff4757;
+}
+
+button.sending {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    padding: 0 1rem;
+  }
+} 
