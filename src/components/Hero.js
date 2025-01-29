@@ -11,8 +11,9 @@ const Hero = () => {
                     <a href="#projects" className="btn primary">View My Work</a>
                     <a href="#contact" className="btn secondary">Contact Me</a>
                     <a
-                        href="/resume.pdf"
-                        download="Himanshu_Jogani_Resume.pdf"
+                        href="https://drive.google.com/file/d/1kq03z8i-FTwIbRMv8h5V_Qpsl_Y_GdQY/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="btn download"
                     >
                         <span>Download CV</span>

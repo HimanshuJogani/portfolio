@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="100" fill="#4a90e2"/>
+  <g transform="translate(96, 96) scale(0.625)">
+    <!-- Laptop -->
+    <path d="M400 350V150C400 138.954 391.046 130 380 130H132C120.954 130 112 138.954 112 150V350H80V370C80 381.046 88.9543 390 100 390H412C423.046 390 432 381.046 432 370V350H400Z" fill="white"/>
+    <!-- Mobile -->
+    <rect x="280" y="160" width="80" height="160" rx="10" fill="white"/>
+    <rect x="295" y="180" width="50" height="100" rx="5" fill="#4a90e2"/>
+    <circle cx="320" cy="300" r="8" fill="#4a90e2"/>
+  </g>
+</svg> 
